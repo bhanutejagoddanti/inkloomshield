@@ -251,3 +251,4 @@ function clampScore(score: any): number {
   if (isNaN(n)) return 100;
   return Math.max(0, Math.min(100, Math.round(n)));
 }
+
