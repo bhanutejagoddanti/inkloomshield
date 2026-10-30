@@ -64,6 +64,8 @@ export interface AuditReport {
   specName?: string;
   engine?: 'deterministic' | 'gemini' | 'anthropic';
   requiresReaudit?: boolean;
+  visualObservations?: string;
+  extractedText?: string;
 }
 
 export interface PresetScenario {
