@@ -1,0 +1,26 @@
+{
+  "demoInitial": {
+    "score": 46,
+    "pending": 3,
+    "total": 3
+  },
+  "afterOneFix": {
+    "score": 81,
+    "resolved": 1,
+    "total": 3
+  },
+  "exportModalText": "Export Remediated Content | Trust score: 69% | Clean Draft | 31 words | The new TechCorp SmartWatch lasts a full 48 hours on a single charge and is super cheap at just $149! You can even wear it while diving in deep ocean waters! | ACCURACY | 44% | TONE | 80% | POLICY | 100% | Copy Draft | Download .md | Download Audit Certificate (.json) | Certificate ID: audit-demo-techcorp",
+  "jsonExport": {
+    "filename": "inkloom-audit-1793346205984.json",
+    "score": 69,
+    "governanceStatus": "CONDITIONAL_APPROVAL",
+    "pending": 3,
+    "hash": "sha256-inkloom-x8i4eqeaoo",
+    "hashLooksSha256": false
+  },
+  "mdExport": {
+    "filename": "remediated-draft-1793346206338.md",
+    "bytes": 489,
+    "head": "# TechCorp SmartWatch Launch Announcement Draft | *Verified & Remediated by Inkloom Shield* | *Audit: 10/30/2026, 1:13:20 PM · Score: 69%* |  | --- |  | The new TechCorp SmartWatch lasts a full 48 hours on a single charge and is sup"
+  }
+}

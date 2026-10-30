@@ -1,0 +1,17 @@
+{
+  "uiMessage": "Webhook returned HTTP 200. Connection test succeeded.",
+  "receiverMethod": "POST",
+  "receiverSecretHeader": "qa-test-secret",
+  "receiverBody": {
+    "event": "inkloom.audit.completed",
+    "source": "Inkloom Shield",
+    "timestamp": "2026-10-30T07:37:48.006Z",
+    "data": {
+      "message": "Test event",
+      "status": "review_required",
+      "trustScore": 91,
+      "pendingApprovals": 1,
+      "guidelines": 2
+    }
+  }
+}

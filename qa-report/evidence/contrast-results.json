@@ -1,0 +1,18 @@
+{
+  "navyWhite": {
+    "ratio": "17.85:1",
+    "msg": "WCAG AA passes for normal text (4.5:1)"
+  },
+  "tealNavy": {
+    "ratio": "4.77:1",
+    "msg": "WCAG AA passes for normal text (4.5:1)"
+  },
+  "invalid": {
+    "ratio": "",
+    "msg": ""
+  },
+  "default": [
+    "nothex",
+    "#FFFFFF"
+  ]
+}

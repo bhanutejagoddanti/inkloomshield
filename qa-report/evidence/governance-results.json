@@ -1,0 +1,74 @@
+{
+  "before": [
+    {
+      "t": "Q4 product launch announcement",
+      "score": "82",
+      "status": "In review"
+    },
+    {
+      "t": "Customer onboarding email",
+      "score": "100",
+      "status": "Approved"
+    }
+  ],
+  "afterApprove": [
+    {
+      "t": "Q4 product launch announcement",
+      "score": "100",
+      "status": "Approved"
+    },
+    {
+      "t": "Customer onboarding email",
+      "score": "100",
+      "status": "Approved"
+    }
+  ],
+  "afterReject": [
+    {
+      "t": "Q4 product launch announcement",
+      "score": "100",
+      "status": "Rejected"
+    },
+    {
+      "t": "Customer onboarding email",
+      "score": "100",
+      "status": "Approved"
+    }
+  ],
+  "afterReload": [
+    {
+      "t": "Q4 product launch announcement",
+      "score": "100",
+      "status": "Rejected"
+    },
+    {
+      "t": "Customer onboarding email",
+      "score": "100",
+      "status": "Approved"
+    }
+  ],
+  "history": [
+    "Q4 product launch announcement\tRejected\t100%\t10/30/2026, 1:22:36 PM",
+    "Q4 product launch announcement\tApproved\t100%\t10/30/2026, 1:22:35 PM"
+  ],
+  "deleteApproval": {
+    "before": 2,
+    "after": 1,
+    "dialog": 0
+  },
+  "knowledgeBefore": 2,
+  "editForm": {
+    "nameVal": "Master Brand Voice",
+    "versionTextShown": "Version 1"
+  },
+  "knowledgeAfterDupSave": 3,
+  "duplicateVersions": [
+    "1",
+    "1"
+  ],
+  "assetDelete": {
+    "before": 2,
+    "after": 1,
+    "dialog": 0
+  }
+}

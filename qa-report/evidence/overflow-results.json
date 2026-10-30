@@ -1,0 +1,45 @@
+{
+  "scrollW": 461,
+  "bad": [
+    {
+      "tag": "DIV",
+      "cls": "",
+      "right": 461,
+      "left": 77,
+      "w": 384,
+      "text": "TechCorp SmartWatch Launch Announcement Draft3 flagsvs. Tech"
+    },
+    {
+      "tag": "DIV",
+      "cls": "flex items-center gap-2",
+      "right": 461,
+      "left": 77,
+      "w": 384,
+      "text": "TechCorp SmartWatch Launch Announcement Draft3 flags"
+    },
+    {
+      "tag": "H1",
+      "cls": "text-sm font-semibold text-slate-900 truncate max-w-xs",
+      "right": 397,
+      "left": 77,
+      "w": 320,
+      "text": "TechCorp SmartWatch Launch Announcement Draft"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200",
+      "right": 457,
+      "left": 405,
+      "w": 52,
+      "text": "3 flags"
+    },
+    {
+      "tag": "P",
+      "cls": "text-xs text-slate-400 mt-0.5 truncate max-w-sm",
+      "right": 461,
+      "left": 77,
+      "w": 384,
+      "text": "vs. TechCorp_Brand_Voice_Guide_2026.pdf & TechCorp_Hardware_"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "workspace": {
+    "score": 87,
+    "pending": 1,
+    "types": [
+      "FACTUAL_ERROR"
+    ]
+  },
+  "exportScore": 87,
+  "governanceStatus": "APPROVED_FOR_PUBLICATION",
+  "pending": 1,
+  "hash": "sha256-inkloom-3lkg47qlaq"
+}

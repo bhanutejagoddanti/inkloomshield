@@ -1,0 +1,14 @@
+{
+  "afterReintroduce": {
+    "scoreText": "Publication Ready",
+    "score": "100",
+    "draft": false
+  },
+  "exportAllowed": {
+    "modal": 1,
+    "score": "Trust score: 100%"
+  },
+  "dupBefore": true,
+  "dupAfterText": "InkloomShield\nv2.4\nAudit\nWorkspace\n100%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nExport\nDraft Inspector\n(10 words)\nHighlights\nEdit\nOur app is compelling value[✓ FIXED]. Our app is super cheap.\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\nFully remediated\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nPublication Ready\n100%\n1/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n100%\nPolicy Compliance\n100%\nAll compliance gates passed. Ready for distribution.\nPASSED\nAll (1)\nFactual (0)\nTone (1)\nResolved (1)\nResolved\nMEDIUM\nFixed\nFLAGGED TEXT\n\n“super cheap”\n\nColloquial discount slang \"super cheap\" diminishes executive brand positioning and premium product perception.\n\nBrand_Voice_Guidelines.pdf, Page 1, §1.4\nSOURCE QUOTE\n“Maintain an empowering, premium tone. Prohibit discount slang that erodes brand equity.”\nTone Preference\nSelect before applying fix\nPersuasive\nBalanced\nCorporate\nBALANCED REWRITE PREVIEW\n\n“compelling value”\n\nApplied to draft\nRevert",
+  "dupAfterEdit": "Our app is compelling value. Our app is super cheap."
+}

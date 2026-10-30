@@ -1,0 +1,12 @@
+{
+  "txtUpload": {
+    "value": "TEST GUIDELINE CONTENT: use short sentences.",
+    "filename": 1
+  },
+  "assetAdd": {
+    "before": 2,
+    "after": 3,
+    "visible": true
+  },
+  "webhookFailure": "Request could not complete from this browser. The receiver may block CORS or be unreachable. You can still export the sample payload."
+}

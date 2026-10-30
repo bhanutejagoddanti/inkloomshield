@@ -1,0 +1,28 @@
+{
+  "added": true,
+  "lsBefore": [
+    "Persist Probe Doc",
+    "Master Brand Voice",
+    "Product Claims & Specifications"
+  ],
+  "lsRawLength": 6,
+  "afterReload": true,
+  "lsAfter": [
+    "Persist Probe Doc",
+    "Master Brand Voice",
+    "Product Claims & Specifications"
+  ],
+  "afterSecondReload": true,
+  "lsAfter2": [
+    "Persist Probe Doc",
+    "Master Brand Voice",
+    "Product Claims & Specifications"
+  ],
+  "approvalAdded": true,
+  "approvalAfterReload": true,
+  "approvalsLS": [
+    "Persist Approval",
+    "Q4 product launch announcement",
+    "Customer onboarding email"
+  ]
+}

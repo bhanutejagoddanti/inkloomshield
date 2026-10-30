@@ -1,0 +1,202 @@
+[
+  {
+    "id": "TC-01",
+    "name": "Valid and compliant",
+    "expected": "Pass or low-risk; clear professional tone.",
+    "copy": "Inkloom helps marketing teams review content against brand guidance and approved product information. It flags potential issues and suggests changes for a human reviewer.",
+    "status": 200,
+    "ms": 3925,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Inkloom helps marketing teams review content against brand guidance and approved product information",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-02",
+    "name": "Unsupported accuracy guarantee",
+    "expected": "Flag 100% accuracy and replacement of human reviewers.",
+    "copy": "Inkloom guarantees 100% accuracy for all content and can replace human reviewers completely.",
+    "status": 200,
+    "ms": 10,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Inkloom guarantees 100% accuracy for all content and can replace human reviewers completely",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-03",
+    "name": "Unsupported customer/history claims",
+    "expected": "Flag Fortune 500 and since-2018 claims as unsupported.",
+    "copy": "Trusted by Fortune 500 companies since 2018, Inkloom has transformed content governance for every enterprise.",
+    "status": 200,
+    "ms": 7,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Trusted by Fortune 500 companies since 2018, Inkloom has transformed content governance for every enterprise",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-04",
+    "name": "Unsupported competitor superlative",
+    "expected": "Flag absolute comparison and unsupported promise.",
+    "copy": "Inkloom is better than all competitors and will always deliver the best results.",
+    "status": 200,
+    "ms": 6,
+    "score": 87,
+    "issues": [
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "always",
+        "citation": "Corporate_Brand_Standards.pdf, Page 3, §2.1",
+        "explanation": "Absolute assertion \"always\" violates FTC and brand substantiation standards without empirical proof."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-05",
+    "name": "Tone mismatch",
+    "expected": "Flag slang-heavy exaggerated tone.",
+    "copy": "Yo!!! This tool is insanely epic and will totally crush every other content platform 🚀🔥",
+    "status": 200,
+    "ms": 6,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Yo!!! This tool is insanely epic and will totally crush every other content platform 🚀🔥",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-06",
+    "name": "Unapproved discount",
+    "expected": "Request approved offer brief; flag price/discount as unverified.",
+    "copy": "Get 50% off today only! Our premium plan is now just $24. Guaranteed savings—buy now!",
+    "status": 200,
+    "ms": 6,
+    "score": 87,
+    "issues": [
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "Guaranteed",
+        "citation": "Corporate_Brand_Standards.pdf, Page 3, §2.1",
+        "explanation": "Absolute assertion \"Guaranteed\" violates FTC and brand substantiation standards without empirical proof."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-07",
+    "name": "Potential privacy concern",
+    "expected": "Flag broad data/privacy disclaimer and suggest approved wording.",
+    "copy": "We store no user data and are not responsible for any issues that may occur while using the platform.",
+    "status": 200,
+    "ms": 5,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "We store no user data and are not responsible for any issues that may occur while using the platform",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-08",
+    "name": "Event details require validation",
+    "expected": "Check date/time against approved event brief.",
+    "copy": "Join our webinar on March 15, 2025 at 11:00 AM IST: The Future of AI in Content Governance.",
+    "status": 200,
+    "ms": 5,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Join our webinar on March 15, 2025 at 11:00 AM IST: The Future of AI in Content Governance",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-09",
+    "name": "Safe capability description",
+    "expected": "Likely acceptable if aligned with specification.",
+    "copy": "Create, review, and improve marketing content with AI-assisted checks for brand alignment and factual consistency.",
+    "status": 200,
+    "ms": 5,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Create, review, and improve marketing content with AI-assisted checks for brand alignment and factual consistency",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  },
+  {
+    "id": "TC-10",
+    "name": "Color mismatch visual test",
+    "expected": "Compare pink-heavy creative with approved navy/teal; treat as review signal.",
+    "copy": "Beautiful Brand Stories — Turn ideas into impact with AI-powered content governance.",
+    "status": 200,
+    "ms": 6,
+    "score": 94,
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "Beautiful Brand Stories — Turn ideas into impact with AI-powered content governance",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "explanation": "Tone alignment review recommended to ensure voice matches executive brand guidelines."
+      }
+    ],
+    "summary": "Dual-engine scan identified 1 compliance considerations requiring remediation before publishing.",
+    "title": "Content Draft Compliance Audit"
+  }
+]

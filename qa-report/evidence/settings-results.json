@@ -1,0 +1,8 @@
+{
+  "storageAfterSave": {
+    "inkloom_shield_user_settings": "{\"apiKey\":\"QA_FAKE_SECRET_abc123\",\"provider\":\"gemini\",\"autoScrollHighlight\":true,\"hapticFeedback\":true}"
+  },
+  "keyStillShownAfterReload": "QA_FAKE_SECRET_abc123",
+  "postBodyHadApiKey": "QA_FAKE_SECRET_abc123",
+  "postBodyProvider": "gemini"
+}

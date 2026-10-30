@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TC-01",
+    "expected": "Pass or low-risk; clear professional tone.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(24 words)\nHighlights\nEdit\nInkloom helps marketing teams review content against brand guidance and approved product information[TONE]. It flags potential issues and suggests changes for a human reviewer.\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Complia"
+  },
+  {
+    "id": "TC-02",
+    "expected": "Flag 100% accuracy and replacement of human reviewers.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(13 words)\nHighlights\nEdit\nInkloom guarantees 100% accuracy for all content and can replace human reviewers completely[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nPolicy Compliance\n"
+  },
+  {
+    "id": "TC-03",
+    "expected": "Flag Fortune 500 and since-2018 claims as unsupported.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(15 words)\nHighlights\nEdit\nTrusted by Fortune 500 companies since 2018, Inkloom has transformed content governance for every enterprise[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nP"
+  },
+  {
+    "id": "TC-04",
+    "expected": "Flag absolute comparison and unsupported promise.",
+    "url": "http://localhost:3100/workspace",
+    "score": "87%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n87%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(13 words)\nHighlights\nEdit\nInkloom is better than all competitors and will always[FACTUAL] deliver the best results.\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n87%\n0/1 cleared\nFactual Accuracy\n72%\nTone Alignment\n100%\nPolicy Compliance\n100%\nAll "
+  },
+  {
+    "id": "TC-05",
+    "expected": "Flag slang-heavy exaggerated tone.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(15 words)\nHighlights\nEdit\nYo!!! This tool is insanely epic and will totally crush every other content platform 🚀🔥[TONE]\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nPolicy Compliance\n100"
+  },
+  {
+    "id": "TC-06",
+    "expected": "Request approved offer brief; flag price/discount as unverified.",
+    "url": "http://localhost:3100/workspace",
+    "score": "87%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n87%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(15 words)\nHighlights\nEdit\nGet 50% off today only! Our premium plan is now just $24. Guaranteed[FACTUAL] savings—buy now!\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n87%\n0/1 cleared\nFactual Accuracy\n72%\nTone Alignment\n100%\nPolicy Compliance\n100%"
+  },
+  {
+    "id": "TC-07",
+    "expected": "Flag broad data/privacy disclaimer and suggest approved wording.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(19 words)\nHighlights\nEdit\nWe store no user data and are not responsible for any issues that may occur while using the platform[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nPolicy Co"
+  },
+  {
+    "id": "TC-08",
+    "expected": "Check date/time against approved event brief.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(18 words)\nHighlights\nEdit\nJoin our webinar on March 15, 2025 at 11:00 AM IST: The Future of AI in Content Governance[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nPolicy Compliance\n1"
+  },
+  {
+    "id": "TC-09",
+    "expected": "Likely acceptable if aligned with specification.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(15 words)\nHighlights\nEdit\nCreate, review, and improve marketing content with AI-assisted checks for brand alignment and factual consistency[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n"
+  },
+  {
+    "id": "TC-10",
+    "expected": "Compare pink-heavy creative with approved navy/teal; treat as review signal.",
+    "url": "http://localhost:3100/workspace",
+    "score": "94%",
+    "flags": "1",
+    "issueTypes": [
+      "Factual Error",
+      "Tone Mismatch"
+    ],
+    "body": "InkloomShield\nv2.4\nAudit\nWorkspace\n94%\nCreative Audit\nGovernance Hub\nDemo Preset\nGuideline Ambiguity Detected in Section 2.4\n— Section 2.4 prohibits promotional superlatives but fails to define approved technical posi…\nGenerate Rule Proposal\nContent Draft Compliance Audit\n1 flags\n\nvs. Brand_Guidelines.pdf & Product_Fact_Sheet.pdf\n\nApply All (1)\nExport\nDraft Inspector\n(12 words)\nHighlights\nEdit\nBeautiful Brand Stories — Turn ideas into impact with AI-powered content governance[TONE].\nLegend:\nFactual Error\nTone Mismatch\nAmbiguity\nFixed\n1 pending\nFlesch: 68\n\nBRAND TRUST SCORE\n\nCompliance Overview\nBrand Compliant\n94%\n0/1 cleared\nFactual Accuracy\n100%\nTone Alignment\n80%\nPolicy Compliance\n100%\nAll"
+  }
+]

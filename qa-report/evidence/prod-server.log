@@ -1,0 +1,61 @@
+
+> inkloomshield@0.1.0 start
+> next start -p 3100
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3100
+
+ ✓ Starting...
+ ✓ Ready in 5.1s
+Gemini Live API failed, falling back to deterministic engine: n$ [ApiError]: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]}}
+    at op (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:146673)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:140992
+    at async oG.generateContentWithContinuation (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:180849)
+    at async oG.generateContent (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:175109)
+    at async fK (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:6:118227)
+    at async f1 (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:61:1616)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943) {
+  status: 400
+}
+Gemini Live API failed, falling back to deterministic engine: n$ [ApiError]: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]}}
+    at op (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:146673)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:140992
+    at async oG.generateContentWithContinuation (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:180849)
+    at async oG.generateContent (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:175109)
+    at async fK (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:6:118227)
+    at async f1 (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:61:1616)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943) {
+  status: 400
+}
+Gemini Live API failed, falling back to deterministic engine: n$ [ApiError]: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]}}
+    at op (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:146673)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:140992
+    at async oG.generateContentWithContinuation (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:180849)
+    at async oG.generateContent (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:175109)
+    at async fK (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:6:118227)
+    at async f1 (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:61:1616)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943) {
+  status: 400
+}
+Gemini Live API failed, falling back to deterministic engine: n$ [ApiError]: {"error":{"code":400,"message":"API key not valid. Please pass a valid API key.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]}}
+    at op (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:146673)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:140992
+    at async oG.generateContentWithContinuation (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:180849)
+    at async oG.generateContent (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:1:175109)
+    at async fK (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:6:118227)
+    at async f1 (/Volumes/BHANU/hackthons/inkloomshield-main/.next/server/app/api/audit/route.js:61:1616)
+    at async /Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/Volumes/BHANU/hackthons/inkloomshield-main/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943) {
+  status: 400
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "image": "01_valid_campaign_post.png",
+    "copy": "Smarter Content for a Safer Brand. AI-powered brand governance for modern marketing teams. Get Started.",
+    "score": "94",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n94%\nBrand Trust Score\n\nFactual accuracy\n\n100%\n\nTone alignment\n\n80%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nmedium · TONE MISMATCH\nBrand_Tone_Charter.pdf, Page 2\n\nSmarter Content for a Safer Brand\n\nTone alignment review recommended to ensure voice matches executive brand guidelines.\n\nSuggested fix: Smarter Content for a Safer Brand designed with customer-centric precision\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision "
+  },
+  {
+    "image": "02_promotional_offer_ad.png",
+    "copy": "Inkloom Premium Plan. 50% DISCOUNT. LIMITED TIME ONLY! $49 $24",
+    "score": "94",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n94%\nBrand Trust Score\n\nFactual accuracy\n\n100%\n\nTone alignment\n\n80%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nmedium · TONE MISMATCH\nBrand_Tone_Charter.pdf, Page 2\n\nInkloom Premium Plan\n\nTone alignment review recommended to ensure voice matches executive brand guidelines.\n\nSuggested fix: Inkloom Premium Plan designed with customer-centric precision\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision to automatically verify th"
+  },
+  {
+    "image": "03_webinar_event_poster.png",
+    "copy": "Join Our Webinar. The Future of AI in Content Governance. March 15, 2025 11:00 AM (IST). Register Now.",
+    "score": "94",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n94%\nBrand Trust Score\n\nFactual accuracy\n\n100%\n\nTone alignment\n\n80%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nmedium · TONE MISMATCH\nBrand_Tone_Charter.pdf, Page 2\n\nJoin Our Webinar\n\nTone alignment review recommended to ensure voice matches executive brand guidelines.\n\nSuggested fix: Join Our Webinar designed with customer-centric precision\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision to automatically verify the upload"
+  },
+  {
+    "image": "04_social_media_post.png",
+    "copy": "Create. Review. Publish with Confidence. Fact-checked content. Brand-aligned tone. Full audit trail.",
+    "score": "94",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n94%\nBrand Trust Score\n\nFactual accuracy\n\n100%\n\nTone alignment\n\n80%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nmedium · TONE MISMATCH\nBrand_Tone_Charter.pdf, Page 2\n\nCreate\n\nTone alignment review recommended to ensure voice matches executive brand guidelines.\n\nSuggested fix: Create designed with customer-centric precision\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision to automatically verify the uploaded image's logo, vis"
+  },
+  {
+    "image": "05_misleading_claim_ad.png",
+    "copy": "World's #1 Content Tool. Guaranteed 100% accuracy! Buy Now.",
+    "score": "87",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n87%\nBrand Trust Score\n\nFactual accuracy\n\n72%\n\nTone alignment\n\n100%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nhigh · FACTUAL ERROR\nCorporate_Brand_Standards.pdf, Page 3, §2.1\n\nGuaranteed\n\nAbsolute assertion \"Guaranteed\" violates FTC and brand substantiation standards without empirical proof.\n\nSuggested fix: verified\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision to automatically verify the uploaded image's logo, visual l"
+  },
+  {
+    "image": "06_off_brand_color_post.png",
+    "copy": "Beautiful Brand Stories. Turn ideas into impact with AI-powered content governance. Learn More.",
+    "score": "94",
+    "flags": "1",
+    "result": "AUDIT RESULTS\n\nCreative copy review\n\nDual-engine scan identified 1 compliance considerations requiring remediation before publishing.\n\n94%\nBrand Trust Score\n\nFactual accuracy\n\n100%\n\nTone alignment\n\n80%\n\nGuideline compliance\n\n100%\n\nFlagged issues (1)\nmedium · TONE MISMATCH\nBrand_Tone_Charter.pdf, Page 2\n\nBeautiful Brand Stories\n\nTone alignment review recommended to ensure voice matches executive brand guidelines.\n\nSuggested fix: Beautiful Brand Stories designed with customer-centric precision\n\nThis audit evaluates the copy supplied above. It does not yet use computer vision to automatically ver"
+  }
+]

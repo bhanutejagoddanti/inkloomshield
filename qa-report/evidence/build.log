@@ -1,0 +1,35 @@
+
+> inkloomshield@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/9) ...
+   Generating static pages (2/9) 
+   Generating static pages (4/9) 
+   Generating static pages (6/9) 
+ ✓ Generating static pages (9/9)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    5.99 kB         111 kB
+├ ○ /_not-found                          875 B          88.2 kB
+├ ƒ /api/audit                           0 B                0 B
+├ ○ /creative-audit                      4.11 kB         109 kB
+├ ○ /governance                          12.3 kB         110 kB
+└ ○ /workspace                           41.4 kB         146 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-0a4757f4cffd8b09.js       31.7 kB
+  ├ chunks/fd9d1056-e070525407d48905.js  53.7 kB
+  └ other shared chunks (total)          1.94 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

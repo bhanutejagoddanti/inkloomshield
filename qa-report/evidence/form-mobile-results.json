@@ -1,0 +1,195 @@
+{
+  "mobile/": {
+    "scrollW": 390,
+    "clientW": 390,
+    "navLinkVisible": false,
+    "hamburgerButtons": 0,
+    "links": [
+      {
+        "href": "/",
+        "text": "Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/workspace",
+        "text": "Workspace",
+        "w": 0,
+        "h": 0,
+        "display": "flex",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/creative-audit",
+        "text": "Creative Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/governance",
+        "text": "Governance Hub",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      }
+    ]
+  },
+  "mobile/workspace": {
+    "scrollW": 461,
+    "clientW": 390,
+    "navLinkVisible": false,
+    "hamburgerButtons": 0,
+    "links": [
+      {
+        "href": "/",
+        "text": "Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/workspace",
+        "text": "Workspace46%",
+        "w": 0,
+        "h": 0,
+        "display": "flex",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/creative-audit",
+        "text": "Creative Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/governance",
+        "text": "Governance Hub",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      }
+    ]
+  },
+  "mobile/creative-audit": {
+    "scrollW": 390,
+    "clientW": 390,
+    "navLinkVisible": false,
+    "hamburgerButtons": 0,
+    "links": [
+      {
+        "href": "/",
+        "text": "Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/workspace",
+        "text": "Workspace",
+        "w": 0,
+        "h": 0,
+        "display": "flex",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/creative-audit",
+        "text": "Creative Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/governance",
+        "text": "Governance Hub",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      }
+    ]
+  },
+  "mobile/governance": {
+    "scrollW": 390,
+    "clientW": 390,
+    "navLinkVisible": false,
+    "hamburgerButtons": 0,
+    "links": [
+      {
+        "href": "/",
+        "text": "Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/workspace",
+        "text": "Workspace",
+        "w": 0,
+        "h": 0,
+        "display": "flex",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/creative-audit",
+        "text": "Creative Audit",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      },
+      {
+        "href": "/governance",
+        "text": "Governance Hub",
+        "w": 0,
+        "h": 0,
+        "display": "inline",
+        "vis": "visible",
+        "parentHidden": "none"
+      }
+    ]
+  },
+  "demoDraftPrefilled": true,
+  "runEnabledWithPrefill": true,
+  "runDisabledWithBlank": true,
+  "pdfUpload": {
+    "chars": 595,
+    "head": "%PDF-1.4\\n1 0 obj\\n<< /Type /Catalog /Pages 2 0 R >>\\nendobj\\n2 ",
+    "startsWithPdfMagic": true,
+    "containsXref": true,
+    "filenameShown": 1
+  },
+  "invalidTypeError": "Please choose a PNG, JPG, WEBP, or GIF image.",
+  "oversizeError": "Image must be 10 MB or smaller.",
+  "webp": {
+    "preview": 1,
+    "error": ""
+  },
+  "emptyCopyError": "Add the text from the creative in the copy field. This version does not perform automatic OCR on the image."
+}

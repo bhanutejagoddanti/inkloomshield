@@ -1,0 +1,22 @@
+{
+  "01": {
+    "sampled": [
+      "#FFFFFF",
+      "#E0E0FF",
+      "#E0FFFF",
+      "#E0FFE0",
+      "#A0A0A0"
+    ],
+    "report": "At least one sampled image color is near a registered brand color. Review the full palette manually."
+  },
+  "06": {
+    "sampled": [
+      "#FFC0C0",
+      "#FFC0E0",
+      "#E04080",
+      "#FFE0E0",
+      "#E0E0E0"
+    ],
+    "report": "At least one sampled image color is near a registered brand color. Review the full palette manually."
+  }
+}

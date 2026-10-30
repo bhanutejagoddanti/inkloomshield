@@ -1,0 +1,33 @@
+{
+  "method": "POST",
+  "headers": {
+    "host": "127.0.0.1:4599",
+    "connection": "keep-alive",
+    "content-length": "211",
+    "x-inkloom-secret": "qa-test-secret",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"HeadlessChrome\";v=\"156\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "http://localhost:3100",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:3100/",
+    "accept-encoding": "gzip, deflate, br, zstd"
+  },
+  "body": {
+    "event": "inkloom.audit.completed",
+    "source": "Inkloom Shield",
+    "timestamp": "2026-10-30T07:37:48.006Z",
+    "data": {
+      "message": "Test event",
+      "status": "review_required",
+      "trustScore": 91,
+      "pendingApprovals": 1,
+      "guidelines": 2
+    }
+  }
+}

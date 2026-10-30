@@ -1,0 +1,117 @@
+{
+  "riskFree": {
+    "status": 200,
+    "score": 38,
+    "draftTitle": "FinVault Q4 Wealth Campaign",
+    "issues": [
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "guaranteed 14.5% risk-free APY",
+        "citation": "FinVault_RateSheet.pdf, Page 1",
+        "flaggedInDraft": false
+      },
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "instant federal deposit protection for unlimited balances up to $10 Million",
+        "citation": "FinVault_Charter.pdf, Page 3",
+        "flaggedInDraft": false
+      }
+    ],
+    "draftPreserved": false,
+    "customGuidelineUsed": false
+  },
+  "aura": {
+    "status": 200,
+    "score": 32,
+    "draftTitle": "Aura Health Mobile Wellness Ad Copy",
+    "issues": [
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "guarantees 100% cure for anxiety",
+        "citation": "Aura_Compliance_Doc.pdf, Page 1",
+        "flaggedInDraft": false
+      },
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "is totally free forever with zero privacy strings attached",
+        "citation": "Aura_Data_Charter.pdf, Page 4 & Brand Voice §2.1",
+        "flaggedInDraft": false
+      },
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "skip going to real doctors!",
+        "citation": "Aura_Compliance_Doc.pdf, Page 1 & Guideline §1.0",
+        "flaggedInDraft": false
+      }
+    ],
+    "draftPreserved": false,
+    "customGuidelineUsed": false
+  },
+  "smartwatch": {
+    "status": 200,
+    "score": 46,
+    "draftTitle": "TechCorp SmartWatch Launch Announcement Draft",
+    "issues": [
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "lasts a full 48 hours on a single charge",
+        "citation": "TechCorp_Specs.pdf, Page 2, §4.1",
+        "flaggedInDraft": false
+      },
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "is super cheap at just $149!",
+        "citation": "TechCorp_Brand_Voice_Guide_2026.pdf, Page 4, §1.2 & Specs.pdf Page 1, §2.0",
+        "flaggedInDraft": false
+      },
+      {
+        "type": "FACTUAL_ERROR",
+        "severity": "high",
+        "flaggedText": "You can even wear it while diving in deep ocean waters!",
+        "citation": "TechCorp_Specs.pdf, Page 3, §5.2",
+        "flaggedInDraft": false
+      }
+    ],
+    "draftPreserved": false,
+    "customGuidelineUsed": false
+  },
+  "neutral": {
+    "status": 200,
+    "score": 94,
+    "draftTitle": "Content Draft Compliance Audit",
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "nothing special here",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "flaggedInDraft": true
+      }
+    ],
+    "draftPreserved": true,
+    "customGuidelineUsed": false
+  },
+  "banana": {
+    "status": 200,
+    "score": 94,
+    "draftTitle": "Content Draft Compliance Audit",
+    "issues": [
+      {
+        "type": "TONE_MISMATCH",
+        "severity": "medium",
+        "flaggedText": "banana banana banana",
+        "citation": "Brand_Tone_Charter.pdf, Page 2",
+        "flaggedInDraft": true
+      }
+    ],
+    "draftPreserved": true,
+    "customGuidelineUsed": true
+  }
+}

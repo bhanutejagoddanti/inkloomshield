@@ -1,0 +1,26 @@
+{
+  "ambiguityModal": {
+    "visible": true,
+    "title": "Guideline Ambiguity Detected in Section 3.2",
+    "hasDialogRole": 0
+  },
+  "afterSubmit": {
+    "modalClosed": true,
+    "governanceApprovals": 0,
+    "history": 0,
+    "localStorageKeys": []
+  },
+  "knowledgeFileLoadChars": 1840,
+  "knowledgeCount": {
+    "before": 2,
+    "after": 3
+  },
+  "exportRecords": {
+    "name": "inkloom-governance-export.json",
+    "bytes": 3798
+  },
+  "exportHistory": {
+    "name": "inkloom-audit-history.json",
+    "bytes": 2
+  }
+}

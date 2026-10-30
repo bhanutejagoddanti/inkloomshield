@@ -1,0 +1,114 @@
+{
+  "landingContrast": [
+    {
+      "t": ".px-1\\.5",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 4.34 (foreground color: #64748b, background color: #f1f5f9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "t": ".pt-1 > .text-slate-400",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 2.45 (foreground color: #94a3b8, background color: #f8fafc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "t": ".flex-col.rounded-xl.shadow-sm:nth-child(1) > .py-3.border-b.border-slate-100 > .gap-2.items-center.flex > div:nth-child(2) > .text-\\[10px\\].text-slate-400",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "t": ".tabular-nums",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "t": ".flex-col.rounded-xl.shadow-sm:nth-child(1) > .py-2.border-t.text-\\[11px\\] > span",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "t": ".py-2.border-t.text-\\[11px\\] > .hover\\:text-slate-700",
+      "s": "Fix any of the following: |   Element has insufficient color contrast of 2.56 (foreground color: #94a3b8, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    }
+  ],
+  "modal": {
+    "dialogs": 0,
+    "ariaModal": 0,
+    "closeButtonNames": [
+      {
+        "aria": null,
+        "title": "Configure AI Engine / API Keys"
+      },
+      {
+        "aria": null,
+        "title": "Configure API key / providers"
+      },
+      {
+        "aria": null,
+        "title": null
+      }
+    ],
+    "activeTag": "BUTTON",
+    "activeText": ""
+  },
+  "escClosed": false,
+  "focusAfterTab": {
+    "tag": "BUTTON",
+    "text": "Load Demo Preset",
+    "insideModal": false
+  },
+  "inputs": [
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "aria": null,
+      "ph": "Paste draft copy to inspect…",
+      "label": []
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "id": "",
+      "aria": null,
+      "ph": null,
+      "label": [
+        "Upload"
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "aria": null,
+      "ph": "Paste approved brand guidelines…",
+      "label": []
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "id": "",
+      "aria": null,
+      "ph": null,
+      "label": [
+        "Upload"
+      ]
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "",
+      "aria": null,
+      "ph": "Paste technical specifications…",
+      "label": []
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "id": "",
+      "aria": null,
+      "ph": "Gemini API key...",
+      "label": []
+    }
+  ],
+  "workspaceMarks": {
+    "marks": 3,
+    "focusableMarks": 0,
+    "skipLink": false,
+    "mainLandmark": 0
+  }
+}

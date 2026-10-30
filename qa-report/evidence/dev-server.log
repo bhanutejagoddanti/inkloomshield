@@ -1,0 +1,24 @@
+
+> inkloomshield@0.1.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 7.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.5s (657 modules)
+ GET / 200 in 10000ms
+ ✓ Compiled in 131ms (298 modules)
+ ○ Compiling /governance ...
+ ✓ Compiled /governance in 720ms (685 modules)
+ GET /governance 200 in 801ms
+ GET /governance 200 in 27ms
+ GET /governance 200 in 25ms
+ GET /governance 200 in 18ms
+ GET /governance 200 in 15ms
+ GET /governance 200 in 25ms
+ GET /governance 200 in 23ms
+ GET /governance 200 in 24ms
+[?25h

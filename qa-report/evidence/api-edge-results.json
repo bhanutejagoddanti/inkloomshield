@@ -1,0 +1,96 @@
+{
+  "GET": {
+    "status": 200,
+    "body": {
+      "status": "online",
+      "engine": "Inkloom Shield Dual-Engine Governance Firewall v2.4",
+      "supportedModels": [
+        "gemini-2.5-flash",
+        "claude-3-5-sonnet"
+      ],
+      "features": [
+        "Dual-Engine RAG & Fact Verification",
+        "Intent-Preserving Tone Slider",
+        "Guideline Flaw & Ambiguity Macro Detector",
+        "Real-time Brand Trust Score Recalculation",
+        "1-Click Deterministic Judge Demo Presets"
+      ]
+    }
+  },
+  "missingDraft": {
+    "status": 400,
+    "ms": 3,
+    "bytes": 80,
+    "contentType": "application/json",
+    "snippet": "{\"success\":false,\"error\":\"draftText is required to perform a governance audit.\"}"
+  },
+  "blankDraft": {
+    "status": 400,
+    "ms": 2,
+    "bytes": 80,
+    "contentType": "application/json",
+    "snippet": "{\"success\":false,\"error\":\"draftText is required to perform a governance audit.\"}"
+  },
+  "wrongType": {
+    "status": 400,
+    "ms": 2,
+    "bytes": 80,
+    "contentType": "application/json",
+    "snippet": "{\"success\":false,\"error\":\"draftText is required to perform a governance audit.\"}"
+  },
+  "malformedJSON": {
+    "status": 400,
+    "ms": 3,
+    "bytes": 80,
+    "contentType": "application/json",
+    "snippet": "{\"success\":false,\"error\":\"draftText is required to perform a governance audit.\"}"
+  },
+  "xss": {
+    "status": 200,
+    "ms": 2,
+    "bytes": 2440,
+    "contentType": "application/json",
+    "snippet": "{\"success\":true,\"report\":{\"id\":\"audit-1793345869436\",\"timestamp\":\"2026-10-30T07:37:49.436Z\",\"draftTitle\":\"Content Draft Compliance Audit\",\"initialDraftText\":\"<img src=x onerror=alert(1)><script>alert(2)</script> \\\"quoted\\\" & done\",\"currentDraftText\":\"<img src=x onerror=alert(1)><script>alert(2)</scr"
+  },
+  "fakeGeminiKey": {
+    "status": 200,
+    "ms": 158,
+    "bytes": 2172,
+    "contentType": "application/json",
+    "snippet": "{\"success\":true,\"report\":{\"id\":\"audit-1793345869594\",\"timestamp\":\"2026-10-30T07:37:49.594Z\",\"draftTitle\":\"Content Draft Compliance Audit\",\"initialDraftText\":\"We guarantee 100% accuracy.\",\"currentDraftText\":\"We guarantee 100% accuracy.\",\"brandGuidelineTitle\":\"Brand_Guidelines.pdf\",\"productSpecTitle\":"
+  },
+  "oversized100kWords": {
+    "status": 200,
+    "ms": 52,
+    "bytes": 5935353,
+    "contentType": "application/json",
+    "snippet": "{\"success\":true,\"report\":{\"id\":\"audit-1793345869634\",\"timestamp\":\"2026-10-30T07:37:49.634Z\",\"draftTitle\":\"Content Draft Compliance Audit\",\"initialDraftText\":\"word0 word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12 word13 word14 word15 word16 word17 word18 word19 word20 word2"
+  },
+  "concurrent10": {
+    "statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "ms": 8
+  },
+  "customGuidelineIgnored": {
+    "score": 94,
+    "flags": [
+      {
+        "type": "TONE_MISMATCH",
+        "flaggedText": "We guarantee 100% accuracy",
+        "citation": "Brand_Tone_Charter.pdf, Page 2"
+      }
+    ],
+    "guidelineEchoPresent": false,
+    "draftPreserved": "We guarantee 100% accuracy."
+  }
+}
