@@ -9,7 +9,7 @@ import { ToneSlider } from '@/components/ToneSlider';
 import { GuidelineAmbiguityModal } from '@/components/GuidelineAmbiguityModal';
 import { ExportModal } from '@/components/ExportModal';
 import { SettingsModal } from '@/components/SettingsModal';
-import { AuditReport, AuditIssue, ToneStyle } from '@/lib/types';
+import { AuditReport, AuditIssue, MacroInsight, ToneStyle } from '@/lib/types';
 import { getPublicationGate } from '@/lib/publication';
 import {
   getStoredReport,
@@ -149,6 +149,20 @@ export default function WorkspacePage() {
       issues: updatedIssues,
       requiresReaudit: false,
     });
+  };
+
+  const submitGovernanceProposal = (insight: MacroInsight) => {
+    // Governance rule-amendment proposals require human (Brand Committee) review.
+    // Capture the RFC submission locally until a committee review endpoint exists.
+    if (typeof window === 'undefined') return;
+    try {
+      const key = 'inkloom_round3_hub_proposals';
+      const stored = window.localStorage.getItem(key);
+      const proposals: unknown[] = stored ? JSON.parse(stored) : [];
+      window.localStorage.setItem(key, JSON.stringify([...(Array.isArray(proposals) ? proposals : []), { ...insight, submittedAt: new Date().toISOString() }]));
+    } catch {
+      // Ignore persistence failures (private mode, quota exceeded).
+    }
   };
 
   const handleHighlightClick = (issueId: string) => {
